@@ -8,9 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="input.txt">
+    <None Remove="input.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
   </ItemGroup>
 
 </Project>
