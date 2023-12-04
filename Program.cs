@@ -1,4 +1,4 @@
 ﻿using AdventCode2023;
 
-Day2 day = new Day2("input.txt");
+var day = new Day3("input.txt");
 Console.WriteLine(day.Part2());
